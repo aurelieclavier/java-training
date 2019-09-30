@@ -122,7 +122,7 @@ public class StringTraining {
      */
     public static int occurrences(String string, char search) {
     	int result = 0;
-        for(int i = 0; i < string.length(); i++) {
+        for(int i = 0; i < 	string.length(); i++) {
         	if(string.charAt(i) == search) {
         		result++;
         	}
